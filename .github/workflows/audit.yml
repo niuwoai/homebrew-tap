@@ -12,6 +12,8 @@ jobs:
       - name: Audit formula and casks
         run: |
           brew tap niuwoai/tap "$GITHUB_WORKSPACE"
-          brew audit --new --formula niuwoai/tap/willdeep-cli
-          brew audit --new --cask niuwoai/tap/willdeep niuwoai/tap/timebill niuwoai/tap/qeditor niuwoai/tap/gitwise niuwoai/tap/qmarkview niuwoai/tap/qecho niuwoai/tap/qmailmate niuwoai/tap/qterm
+          # 不用 --new：它套用 homebrew-core/cask 的收录门槛（如 GitHub 知名度），
+          # 自有 tap 不需要；--strict --online 仍检查 URL、主页可达与规范。
+          brew audit --strict --online --formula niuwoai/tap/willdeep-cli
+          brew audit --strict --online --cask niuwoai/tap/willdeep niuwoai/tap/timebill niuwoai/tap/qeditor niuwoai/tap/gitwise niuwoai/tap/qmarkview niuwoai/tap/qecho niuwoai/tap/qmailmate niuwoai/tap/qterm
           brew style Formula/willdeep-cli.rb Casks/*.rb
