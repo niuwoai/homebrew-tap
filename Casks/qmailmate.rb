@@ -7,6 +7,11 @@ cask "qmailmate" do
   desc "Native email client"
   homepage "https://some.im/zh/apps/musemail"
 
+  livecheck do
+    url "https://some.im/api/v1/public/app-updates/appcast.xml?app_id=musemail&platform=macos&channel=stable"
+    strategy :sparkle, &:short_version
+  end
+
   depends_on macos: :sonoma
 
   app "QMailMate.app"

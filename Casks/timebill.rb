@@ -7,6 +7,10 @@ cask "timebill" do
   desc "Time tracking application"
   homepage "https://some.im/zh/apps/timebill"
 
+  livecheck do
+    skip "No public update feed"
+  end
+
   depends_on macos: :sonoma
 
   app "TimeBill.app"

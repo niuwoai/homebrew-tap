@@ -7,6 +7,11 @@ cask "qterm" do
   desc "Native terminal application"
   homepage "https://some.im/zh/apps/qterm"
 
+  livecheck do
+    url "https://some.im/api/v1/public/app-updates/appcast.xml?app_id=qterm&platform=macos&channel=stable"
+    strategy :sparkle, &:short_version
+  end
+
   depends_on macos: :ventura
 
   app "QTerm.app"

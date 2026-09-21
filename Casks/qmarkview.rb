@@ -7,6 +7,11 @@ cask "qmarkview" do
   desc "Markdown reader and document viewer"
   homepage "https://some.im/zh/apps/qmarkview"
 
+  livecheck do
+    url "https://some.im/api/v1/public/app-updates/appcast.xml?app_id=qmarkview&platform=macos&channel=stable"
+    strategy :sparkle, &:short_version
+  end
+
   depends_on macos: :tahoe
 
   app "QMarkView.app"
