@@ -11,6 +11,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Audit formula and casks
         run: |
-          brew audit --new --formula Formula/willdeep-cli.rb
-          brew audit --new --cask Casks/willdeep.rb Casks/timebill.rb Casks/qeditor.rb Casks/gitwise.rb Casks/qmarkview.rb Casks/qecho.rb Casks/qmailmate.rb Casks/qterm.rb
+          brew audit --new --formula willdeep-cli
+          brew audit --new --cask willdeep timebill qeditor gitwise qmarkview qecho qmailmate qterm
           brew style Formula/willdeep-cli.rb Casks/*.rb

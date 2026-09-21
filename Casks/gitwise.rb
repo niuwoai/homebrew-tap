@@ -4,7 +4,7 @@ cask "gitwise" do
 
   url "https://img.niuwoai.com/mac-apps/GitWise-2.12.0-rc4.dmg"
   name "GitWise"
-  desc "Native Git client for macOS"
+  desc "Native Git client"
   homepage "https://github.com/xurenlu/gitwise"
 
   depends_on macos: :ventura
