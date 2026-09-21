@@ -10,6 +10,8 @@ brew install niuwoai/tap/willdeep-cli
 brew install --cask niuwoai/tap/willdeep
 ```
 
+If another local `willdeep` binary appears earlier in `PATH`, use `brew --prefix willdeep-cli` or place Homebrew's `bin` directory earlier in `PATH`.
+
 The GUI applications are distributed as signed and notarized upstream DMG files. The CLI is distributed as the universal macOS archive from the WillDeep Rust release.
 
 ## Available packages
@@ -40,4 +42,3 @@ brew style --fix Casks/willdeep.rb Formula/willdeep-cli.rb
 ```
 
 Do not point a definition at a mutable `latest` URL.
-

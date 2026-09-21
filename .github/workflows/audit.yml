@@ -1,0 +1,16 @@
+name: Audit Homebrew packages
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  audit:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit formula and casks
+        run: |
+          brew audit --new --formula Formula/willdeep-cli.rb
+          brew audit --new --cask Casks/willdeep.rb Casks/timebill.rb Casks/qeditor.rb Casks/gitwise.rb Casks/qmarkview.rb Casks/qecho.rb Casks/qmailmate.rb Casks/qterm.rb
+          brew style Formula/willdeep-cli.rb Casks/*.rb
