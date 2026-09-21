@@ -7,7 +7,7 @@ cask "qecho" do
   desc "Native voice input utility"
   homepage "https://github.com/xurenlu/fastv"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "QEcho.app"
 end

@@ -7,7 +7,7 @@ cask "qmarkview" do
   desc "Markdown reader and document viewer"
   homepage "https://github.com/xurenlu/markreader"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "QMarkView.app"
 end

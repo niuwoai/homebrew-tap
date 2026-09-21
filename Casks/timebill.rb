@@ -7,7 +7,7 @@ cask "timebill" do
   desc "Time tracking application"
   homepage "https://github.com/xurenlu/TimeRecorder"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "TimeBill.app"
 end

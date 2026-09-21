@@ -7,7 +7,7 @@ cask "qeditor" do
   desc "Native Markdown editor"
   homepage "https://github.com/niuwoai/Qeditor"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Qeditor.app"
 end
