@@ -11,6 +11,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Audit formula and casks
         run: |
-          brew audit --new --formula willdeep-cli
-          brew audit --new --cask willdeep timebill qeditor gitwise qmarkview qecho qmailmate qterm
+          brew tap niuwoai/tap "$GITHUB_WORKSPACE"
+          brew audit --new --formula niuwoai/tap/willdeep-cli
+          brew audit --new --cask niuwoai/tap/willdeep niuwoai/tap/timebill niuwoai/tap/qeditor niuwoai/tap/gitwise niuwoai/tap/qmarkview niuwoai/tap/qecho niuwoai/tap/qmailmate niuwoai/tap/qterm
           brew style Formula/willdeep-cli.rb Casks/*.rb
