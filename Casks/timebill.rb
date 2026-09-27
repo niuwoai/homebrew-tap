@@ -1,6 +1,6 @@
 cask "timebill" do
-  version "1.2.0-rc1"
-  sha256 "5c7548428cee09b4f49adf9296f62311847be9b0744ad4ee2c01ffd288bde003"
+  version "1.2.0-rc2"
+  sha256 "d5f8ff8d43d1529302e41b3d3933b1a3d6b3a1de4e19ef5e69c7e6ba89a0eed3"
 
   url "https://img.niuwoai.com/mac-apps/TimeBill-#{version}.dmg"
   name "TimeBill"
