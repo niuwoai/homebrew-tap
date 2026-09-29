@@ -27,6 +27,7 @@ The GUI applications are distributed as signed and notarized upstream DMG files.
 | `qecho` | Cask | `2.6.0` |
 | `qmailmate` | Cask | `5.4.0-rc5` |
 | `qterm` | Cask | `1.243.0-rc6` |
+| `bearcleaner` | Cask | `1.97.0-rc18` |
 
 VeilLink is intentionally excluded.
 
