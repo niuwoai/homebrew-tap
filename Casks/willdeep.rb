@@ -1,6 +1,6 @@
 cask "willdeep" do
-  version "1.410.0-rc1"
-  sha256 "a9cffc4f4c65cf341878af403263dda42aaad642e66920c687c9c699bd600a71"
+  version "1.410.0-rc2"
+  sha256 "480c0c5120b96f4a47923c5de328cf03a17e7d24617167014f65339d12ec29e4"
 
   url "https://img.niuwoai.com/mac-apps/WillDeep-#{version}.dmg"
   name "WillDeep"
