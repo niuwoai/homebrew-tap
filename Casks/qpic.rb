@@ -1,6 +1,6 @@
 cask "qpic" do
-  version "2.2.1-rc4"
-  sha256 "fd21456b950b42c24d91d3dd6d8d9bd94aef2a34ee19cf7a6b8309b12d433127"
+  version "2.2.1-rc5"
+  sha256 "39f2ad1bec9c5f05db23a7807365624a23d8ba2c5f92f5842e555d11906d6ccd"
 
   url "https://img.niuwoai.com/mac-apps/QPic-#{version}.dmg"
   name "QPic"
