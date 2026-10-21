@@ -8,6 +8,7 @@ Homebrew formulas and casks for WillDeep and related macOS applications.
 brew tap niuwoai/tap
 brew install niuwoai/tap/willdeep-cli
 brew install --cask niuwoai/tap/willdeep
+brew install --cask niuwoai/tap/qpic
 ```
 
 If another local `willdeep` binary appears earlier in `PATH`, use `brew --prefix willdeep-cli` or place Homebrew's `bin` directory earlier in `PATH`.
@@ -20,6 +21,7 @@ The GUI applications are distributed as signed and notarized upstream DMG files.
 | --- | --- | --- |
 | `willdeep-cli` | Formula | `0.79.0-rc1` |
 | `willdeep` | Cask | `1.394.0-rc2` |
+| `qpic` | Cask | `2.2.1-rc5` |
 | `timebill` | Cask | `1.0.30-rc37` |
 | `qeditor` | Cask | `2.3.0-rc18` |
 | `gitwise` | Cask | `2.12.0-rc4` |
