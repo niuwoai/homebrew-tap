@@ -3,7 +3,6 @@
 These applications exist in `/Users/rocky/Sites/new83d/scripts/release_mac_apps.rb`, but there is no verified public, versioned download artifact available at the time this tap was created:
 
 - FileWand
-- QPic
 - Xomo
 - QNote
 
