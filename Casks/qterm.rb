@@ -1,6 +1,6 @@
 cask "qterm" do
-  version "1.251.0-rc32"
-  sha256 "35baa2c91e777b6c47e38e3448eefe661de7c9b4d2bcf00827ef22845dbd0739"
+  version "1.251.0-rc33"
+  sha256 "7fb9fbde6d992fadbdafe713c78c79eadd85b37e75b2c38d1d157173c9eefa2e"
 
   url "https://img.niuwoai.com/mac-apps/QTerm-#{version}.dmg"
   name "QTerm"
