@@ -1,9 +1,9 @@
 class WilldeepCli < Formula
   desc "Command-line client and runtime tools for WillDeep"
   homepage "https://github.com/niuwoai/willdeep-cli"
-  url "https://github.com/niuwoai/willdeep-cli/releases/download/v0.126.0-rc3/willdeep-macos-universal.tar.gz"
-  version "0.126.0-rc3"
-  sha256 "1384126fc2f011db7ce40c3b1d4abaa556a2b73e5ae25e96f7b2610edd44c402"
+  url "https://github.com/niuwoai/willdeep-cli/releases/download/v0.127.0-rc1/willdeep-macos-universal.tar.gz"
+  version "0.127.0-rc1"
+  sha256 "9fed374ed0c12c07d4292c2c25ef0d23ac1823ba21dfd464c29f0c798e526241"
   license "MIT"
 
   def install
