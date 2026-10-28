@@ -1,6 +1,6 @@
 cask "qmailmate" do
-  version "5.4.0-rc7"
-  sha256 "846c9fad60de9450fba4b7dfeac9ab0c7aded9c158c80eb2ae1cc37ed033eee1"
+  version "5.4.0-rc8"
+  sha256 "3661aeabc611c8a568d9fb288c61f4555b1f0daeefb616ff23f9146ad99ce56f"
 
   url "https://img.niuwoai.com/mac-apps/QMailMate-#{version}.dmg"
   name "QMailMate"
