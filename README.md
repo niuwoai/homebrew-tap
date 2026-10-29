@@ -9,6 +9,7 @@ brew tap niuwoai/tap
 brew install niuwoai/tap/willdeep-cli
 brew install --cask niuwoai/tap/willdeep
 brew install --cask niuwoai/tap/qpic
+brew install --cask niuwoai/tap/museterm
 ```
 
 If another local `willdeep` binary appears earlier in `PATH`, use `brew --prefix willdeep-cli` or place Homebrew's `bin` directory earlier in `PATH`.
@@ -28,7 +29,7 @@ The GUI applications are distributed as signed and notarized upstream DMG files.
 | `qmarkview` | Cask | `1.8.0-rc6` |
 | `qecho` | Cask | `2.6.0` |
 | `qmailmate` | Cask | `5.4.0-rc5` |
-| `qterm` | Cask | `1.243.0-rc6` |
+| `museterm` | Cask | `1.256.0-rc2` |
 | `bearcleaner` | Cask | `1.97.0-rc18` |
 
 VeilLink is intentionally excluded.
@@ -45,3 +46,5 @@ brew style --fix Casks/willdeep.rb Formula/willdeep-cli.rb
 ```
 
 Do not point a definition at a mutable `latest` URL.
+
+QTerm is now MuseTerm. The old cask is removed; Homebrew uses `cask_renames.json` to migrate `qterm` to `museterm`. Existing installations can run `brew update` followed by `brew upgrade --cask museterm`.
