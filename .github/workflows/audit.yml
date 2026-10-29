@@ -4,12 +4,17 @@ on:
   push:
   pull_request:
 
+permissions:
+  contents: read
+
 jobs:
   audit:
     runs-on: macos-latest
     steps:
       - uses: actions/checkout@v4
       - name: Audit formula and casks
+        env:
+          HOMEBREW_GITHUB_API_TOKEN: ${{ github.token }}
         run: |
           brew tap niuwoai/tap "$GITHUB_WORKSPACE"
           # 不用 --new：它套用 homebrew-core/cask 的收录门槛（如 GitHub 知名度），
