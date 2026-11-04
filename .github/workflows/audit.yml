@@ -17,7 +17,7 @@ jobs:
           HOMEBREW_GITHUB_API_TOKEN: ${{ github.token }}
         run: |
           brew tap niuwoai/tap "$GITHUB_WORKSPACE"
-          brew trust --formula niuwoai/tap/willdeep-cli
+          brew trust niuwoai/tap
           # 不用 --new：它套用 homebrew-core/cask 的收录门槛（如 GitHub 知名度），
           # 自有 tap 不需要；--strict --online 仍检查 URL、主页可达与规范。
           brew audit --strict --online --formula niuwoai/tap/willdeep-cli
