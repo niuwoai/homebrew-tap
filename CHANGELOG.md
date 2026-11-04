@@ -1,5 +1,10 @@
 # Changelog
 
+## [CI 0.0.0-rc2] - 2026-11-05
+
+### Fixed
+- Explicitly trust the checked-out niuwoai/tap on ephemeral CI runners before loading formulae and casks, preserving strict online audit and style checks under Homebrew's tap trust requirement.
+
 ## [WillDeep CLI 0.143.0-rc7] - 2026-11-05
 
 ### Changed
