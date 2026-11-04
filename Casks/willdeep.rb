@@ -8,8 +8,7 @@ cask "willdeep" do
   homepage "https://some.im/zh/products/willdeep"
 
   livecheck do
-    url "https://some.im/api/v1/public/app-updates/appcast.xml?app_id=willdeep&platform=macos&channel=stable"
-    strategy :sparkle, &:short_version
+    skip "Release candidates are not published to the Sparkle appcast"
   end
 
   depends_on macos: :ventura
