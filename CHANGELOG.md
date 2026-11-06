@@ -1,5 +1,10 @@
 # Changelog
 
+## [WillDeep CLI 0.147.0-rc3] - 2026-11-07
+
+### Changed
+- Update willdeep-cli to the verified official 0.147.0-rc3 macOS universal archive, containing x86_64 and arm64. The archive SHA-256 matches the GitHub Release digest, and all 12 release workflow jobs passed.
+
 ## [CI 0.0.0-rc2] - 2026-11-05
 
 ### Fixed
