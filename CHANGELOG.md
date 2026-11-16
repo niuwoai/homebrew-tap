@@ -1,5 +1,11 @@
 # Changelog
 
+## [BearCleaner 1.100.0-rc3] - 2026-11-17
+
+### Fixed
+- Update bearcleaner to the signed and notarized 1.100.0-rc3 universal DMG (Build 196), keeping cleaner landing information pills complete on one line at narrow window widths.
+- Pin the immutable versioned download and verified SHA-256, and synchronize the package overview.
+
 ## [BearCleaner 1.100.0-rc2] - 2026-11-17
 
 ### Fixed
