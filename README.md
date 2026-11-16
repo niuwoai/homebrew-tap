@@ -20,7 +20,7 @@ The GUI applications are distributed as signed and notarized upstream DMG files.
 
 | Package | Type | Current version |
 | --- | --- | --- |
-| `willdeep-cli` | Formula | `0.79.0-rc1` |
+| `willdeep-cli` | Formula | `0.149.0-rc2` |
 | `willdeep` | Cask | `1.394.0-rc2` |
 | `qpic` | Cask | `2.2.1-rc5` |
 | `timebill` | Cask | `1.0.30-rc37` |
