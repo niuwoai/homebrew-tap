@@ -1,5 +1,11 @@
 # Changelog
 
+## [BearCleaner 1.100.0-rc2] - 2026-11-17
+
+### Fixed
+- Update bearcleaner to the signed and notarized 1.100.0-rc2 universal DMG (Build 195), fixing compact directory results and permission verification after returning from system settings.
+- Pin the immutable versioned download and verified SHA-256, and synchronize the package overview.
+
 ## [WillDeep CLI 0.149.0-rc12] - 2026-11-17
 
 ### Changed
