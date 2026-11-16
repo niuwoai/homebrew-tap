@@ -1,5 +1,11 @@
 # Changelog
 
+## [WillDeep macOS 1.428.0-rc5] - 2026-11-16
+
+### Changed
+- Update willdeep to the verified signed and notarized 1.428.0-rc5 universal DMG (Build 948), with its immutable versioned URL and SHA-256 matching the GitHub Release asset.
+- Synchronize the macOS version in the package overview.
+
 ## [WillDeep CLI 0.149.0-rc2] - 2026-11-16
 
 ### Changed
