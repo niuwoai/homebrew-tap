@@ -1,6 +1,6 @@
 cask "bearcleaner" do
-  version "1.100.0-rc2"
-  sha256 "e7f5e900ea9dea342b2cc4b2358f3526f4f7839235984b9e6e9a36c97ce78206"
+  version "1.100.0-rc3"
+  sha256 "ba275ae6d334d1a80043ead1b2b66543044b8fc7f4a647ec3df4362d5f1c9851"
 
   url "https://img.niuwoai.com/mac-apps/BearCleaner-#{version}.dmg"
   name "BearCleaner"
