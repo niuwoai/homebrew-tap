@@ -30,7 +30,7 @@ The GUI applications are distributed as signed and notarized upstream DMG files.
 | `qecho` | Cask | `2.6.0` |
 | `qmailmate` | Cask | `5.4.0-rc5` |
 | `museterm` | Cask | `1.256.0-rc2` |
-| `bearcleaner` | Cask | `1.97.0-rc18` |
+| `bearcleaner` | Cask | `1.100.0-rc2` |
 
 VeilLink is intentionally excluded.
 
