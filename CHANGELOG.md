@@ -1,5 +1,11 @@
 # Changelog
 
+## [WillDeep CLI 0.149.0-rc12] - 2026-11-17
+
+### Changed
+- Update willdeep-cli to the verified official 0.149.0-rc12 macOS universal archive. Its SHA-256 matches the public release asset, both arm64 and x86_64 report the target version, and the embedded build commit is 1e0b18ab7ee8769ca524862d09e53de6063cbafb. All 10 release workflow jobs passed.
+- Synchronize the CLI version in the package overview.
+
 ## [WillDeep macOS 1.428.0-rc5] - 2026-11-16
 
 ### Changed
