@@ -1,5 +1,12 @@
 # Changelog
 
+## [willdeep CLI 0.154.0-rc2] - 2026-11-19
+
+### Changed
+- Update willdeep-cli to the official 0.154.0-rc2 macOS universal archive. The independently downloaded archive matches the GitHub SHA-256, contains arm64 and x86_64 slices, and reports the target version on the local host.
+- All 10 release workflow jobs passed. The npm package manifest matches all three official archives, and an isolated untagged npm installation reports 0.154.0-rc2.
+- Synchronize the package overview and retain the immutable versioned URL.
+
 ## [BearCleaner 1.100.0-rc3] - 2026-11-17
 
 ### Fixed
