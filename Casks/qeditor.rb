@@ -1,6 +1,6 @@
 cask "qeditor" do
-  version "2.4.0-rc1"
-  sha256 "fa52b23a2608e93e8f768c581b77d6cb76c0a6912087474862f08d1472994d74"
+  version "2.4.0-rc4"
+  sha256 "832588797913319c5d120f69703b86b77cebec2aada575b2fa8091126b0cfeef"
 
   url "https://img.niuwoai.com/mac-apps/Qeditor-#{version}.dmg"
   name "Qeditor"
