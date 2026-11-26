@@ -1,6 +1,6 @@
 cask "museterm" do
-  version "1.264.0-rc5"
-  sha256 "091132af4c3ccf7b6ac477fc4a6604959c623fc14d19d48bf605d9d8d61a5efe"
+  version "1.264.0-rc7"
+  sha256 "7c07029b50ede6bb4def3c0f8c7c9182ad1b6295630f1bbd1d204f0e57bc24f9"
 
   url "https://img.niuwoai.com/mac-apps/MuseTerm-#{version}.dmg"
   name "MuseTerm"
