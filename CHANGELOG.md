@@ -1,5 +1,10 @@
 # Changelog
 
+## [willdeep CLI 0.163.0-rc2] - 2026-11-27
+
+### Changed
+- Update `willdeep-cli` to the official macOS universal archive for 0.163.0-rc2. Pin the GitHub Release SHA-256 and synchronize the package overview.
+
 ## [willdeep CLI 0.154.0-rc2] - 2026-11-19
 
 ### Changed
