@@ -1,9 +1,9 @@
 cask "qeditor" do
-  version "2.4.0-rc4"
-  sha256 "832588797913319c5d120f69703b86b77cebec2aada575b2fa8091126b0cfeef"
+  version "2.6.0-rc1"
+  sha256 "1bff9907eaa8e6d6291533840c9fe6bd62ee3a06ed07220e940ed4ced3a168ea"
 
   url "https://img.niuwoai.com/mac-apps/Qeditor-#{version}.dmg"
-  name "Qeditor"
+  name "MuseEditor"
   desc "Native Markdown editor"
   homepage "https://some.im/zh/apps"
 
@@ -14,5 +14,5 @@ cask "qeditor" do
 
   depends_on macos: :ventura
 
-  app "Qeditor.app"
+  app "MuseEditor.app"
 end
